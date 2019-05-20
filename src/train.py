@@ -135,7 +135,7 @@ class batchgen(keras.utils.Sequence):
 
         return [batch_encoder_in, batch_src_in, batch_decoder_in], [batch_decoder_out]
 
-dataprep = '../../data/training.pkl'
+dataprep = 'data/training.pkl'
 all_seqs = pickle.load(open(dataprep, "rb"))
 
 # Randomly shuffle data so we don't have sequential functions in training/validation

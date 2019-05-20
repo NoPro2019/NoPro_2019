@@ -10,3 +10,6 @@ This repository is organized as follows:
 
 * scripts/
 	* contains a number of shell scripts that can be run to quickly address each of the 7 research questions outlined in the paper.
+
+* src/
+	* contains model and inference code used for the automatic summary prediction
